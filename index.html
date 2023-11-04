@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Las mejores trivias encuéntralas aquí">
+  <meta name="robots" content="index,follow">
+  <title>Trivia ganadora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container">
+  <header>
+    <div class="logo">
+        <img src="logoTrivia.png" alt="Logo de la empresa">
+    </div>
+    <div id="mensajeSaludo" class="mensaje-animated"></div>
+    <!-- <p>EMPIEZA A JUGAR...</p> -->
+  </header>
+  <form id="nombres">
+    <div class="encuesta">
+    <legend style="font-weight: bold;">Ingresa tu nombre:</legend>
+    <br>
+    <br>
+    <label><input placeholder="Nombre" type="text" name="firstname" onchange="saludar()" required></label>
+    <button type="button" class="btn1" onclick="window.location.href='Opciones.html'">Comenzar</button>
+</div>
+<div class="manita">
+    <img src="manita.png" alt="manita">
+  </div>
+</form>
+  <script src="script.js"></script>
+</body>
+</html>

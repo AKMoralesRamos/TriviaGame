@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Las mejores trivias encuéntralas aquí" />
+  <meta name="robots" content="index,follow">
+  <title>Trivia ganadora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<header>
+    <div class="logo">
+        <img src="logoTrivia.png" alt="Logo de la empresa">
+    </div>
+    <div id="mensajeSaludo" class="mensaje-animated"></div>
+    <p>¡A jugar!</p>
+  </header>
+<br>
+<br>
+<button type="button" class="regresar" onclick="window.location.href='Opciones.html'" ><img src="arrow_back_ios_FILL0_wght400_GRAD0_opsz24.svg"></button>
+<p>Contesta las preguntas...</p>
+<form id="radios">
+  <section id="parte1">
+    <h4>1. ¿En qué país se encuentra la zona arqueológica de "Petra"?</h4>
+    <input type="radio" id="pregunta1" name="pregunta1" value="op0">
+    <label for="pregunta1">Jordania</label><br>
+    <input type="radio" id="pregunta1" name="pregunta1" value="op1">
+    <label for="pregunta1">Canadá</label><br>
+    <input type="radio" id="pregunta1" name="pregunta1" value="op2">
+    <label for="pregunta1">Colombia</label><br>
+  </section>
+  <section id="parte2">
+    <h4>2. ¿En qué país se encuentra la "Gran Muralla"?</h4>
+    <input type="radio" id="pregunta2" name="pregunta2" value="op3">
+    <label for="pregunta2">Suecia</label><br>
+    <input type="radio" id="pregunta2" name="pregunta2" value="op4">
+    <label for="pregunta2">Rusia</label><br>
+    <input type="radio" id="pregunta2" name="pregunta2" value="op5">
+    <label for="pregunta2">China</label><br>
+  </section>
+  <section id="parte3">
+    <h4>3. ¿En qué país se encuentra el "Coliseo"?</h4>
+    <input type="radio" id="pregunta3" name="pregunta3" value="op6">
+    <label for="pregunta3">Italia</label><br>
+    <input type="radio" id="pregunta3" name="pregunta3" value="op7">
+    <label for="pregunta3">México</label><br>
+    <input type="radio" id="pregunta3" name="pregunta3" value="op8">
+    <label for="pregunta3">Japón</label><br>
+  </section>
+  <section id="parte4">
+    <h4>4. ¿En qué país se encuentra el "Chichen Itza"?</h4>
+    <input type="radio" id="pregunta4" name="pregunta4" value="op9">
+    <label for="pregunta4">Taiwán</label><br>
+    <input type="radio" id="pregunta4" name="pregunta4" value="op10">
+    <label for="pregunta4">México</label><br>
+    <input type="radio" id="pregunta4" name="pregunta4" value="op11">
+    <label for="pregunta4">Dinamarca</label><br>
+  </section>
+  <section id="parte5">
+    <h4>5. ¿En qué país se encuentra el "Machu Picchu"?</h4>
+    <input type="radio" id="pregunta5" name="pregunta5" value="op12">
+    <label for="pregunta5">Perú</label><br>
+    <input type="radio" id="pregunta5" name="pregunta5" value="op13">
+    <label for="pregunta5">Chile</label><br>
+    <input type="radio" id="pregunta5" name="pregunta5" value="op14">
+    <label for="pregunta5">Argentina</label><br>
+  </section>
+  <section id="parte6">
+    <h4>6. ¿En qué país se encuentra el "Cristo Redentor"?</h4>
+    <input type="radio" id="pregunta6" name="pregunta6" value="op15">
+    <label for="pregunta6">Brasil</label><br>
+    <input type="radio" id="pregunta6" name="pregunta6" value="op16">
+    <label for="pregunta6">Ecuador</label><br>
+    <input type="radio" id="pregunta6" name="pregunta6" value="op17">
+    <label for="pregunta6">España</label><br>
+  </section>
+  <section id="parte7">
+    <h4>7. ¿En qué país se encuentra el "Taj Mahal"?</h4>
+    <input type="radio" id="pregunta7" name="pregunta7" value="op18">
+    <label for="pregunta7">China</label><br>
+    <input type="radio" id="pregunta7" name="pregunta7" value="op19">
+    <label for="pregunta7">Marruecos</label><br>
+    <input type="radio" id="pregunta7" name="pregunta7" value="op20">
+    <label for="pregunta7">India</label><br>
+  </section>
+  <button type="button" class="btn1" onclick="mostrarResultados()">Ver resultados</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
